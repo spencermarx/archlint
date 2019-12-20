@@ -1,0 +1,40 @@
+{
+  "name": "archlint-demo",
+  "version": "0.0.1",
+  "description": "Check and enforce proper architecture standards for Nuxt projects",
+  "main": "./bin/archlint.js",
+  "scripts": {
+    "lint": "node ./bin/archlint.js"
+  },
+  "engines": {
+    "node": ">=8.3.0"
+  },
+  "bin": {
+    "archlint": "./bin/archlint.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/smarxHCS/archlint-demo.git"
+  },
+  "keywords": [],
+  "author": "Spencer Marx",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/smarxHCS/archlint-demo#readme",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "ora": "^4.0.3"
+  }
+}
