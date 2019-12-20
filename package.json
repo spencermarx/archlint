@@ -1,6 +1,6 @@
 {
-  "name": "archlint-demo",
-  "version": "0.0.1",
+  "name": "archlint",
+  "version": "0.0.0",
   "description": "Check and enforce proper architecture standards for Nuxt projects",
   "main": "./bin/archlint.js",
   "scripts": {
