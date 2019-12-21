@@ -12,21 +12,11 @@ Featured Rules:
 
 ### How do I get set up?
 
-- Cloan repo to any directory
-- `cd` to the directory
-- Run...
-  ```
-  npm link
-  ```
-- Open your desired Nuxt Repo in VSCode (or whatever IDE)
-- Copy and past the contents of the .exampleSetupFiles into your root directory
-- Open the terminal from your Nuxt repo root and run ...
+- From your working repo, run: `npm install --save-dev archlint`
 
-  ```
-  bash npm link archlint-demo
-  ```
+- Copy and paste the contents of `exampleSetup` to the root of your working repo
 
-* In your local Nuxt Repo's `package.json` add...
+- In your working repo's `package.json` add:
 
 ```
 "scripts": {
@@ -34,6 +24,8 @@ Featured Rules:
     ...
 }
 ```
+
+- To run a lint-check, run: `npm run archlint`
 
 ### Contribution guidelines
 
@@ -43,5 +35,4 @@ Featured Rules:
 
 ### Who do I talk to?
 
-- Spencer Marx
-- Matthew Bowler
+- Spencer Marx: spencer.s.marx@gmail.com
