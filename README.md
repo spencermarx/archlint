@@ -35,5 +35,4 @@ Featured Rules:
 
 ### Who do I talk to?
 
-- Spencer Marx
-- Matthew Bowler
+- Spencer Marx: spencer.s.marx@gmail.com
